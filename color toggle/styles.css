@@ -1,4 +1,4 @@
-* {
+body {
   background-color: lightgrey;
 }
 
@@ -22,14 +22,14 @@
 }
 
 .topbar img:hover {
-  opacity: 70%;
+  opacity: 100%;
 }
 
 .nav-sidebar {
   position: fixed;
   left: 0;
   top: 60px;
-  width: 50px;
+  width: 300px;
   padding: 0 5px;
   z-index: 1000;
 }
@@ -46,6 +46,7 @@
   width: 300px;
   margin-left: -50px;
   align-items: left;
+  opacity: 0%;
 }
 
 .nav-sidebar ul li a {
@@ -56,7 +57,7 @@
   text-decoration: none;
   color: black;
   white-space: nowrap;
-  opacity: 100;
+  opacity: 100%;
 }
 
 .nav-sidebar ul li a :hover {
@@ -74,6 +75,9 @@
 }
 #green {
   background-color: green;
+}
+#lightgray {
+  background-color: lightgrey;
 }
 
 .red-bg {
